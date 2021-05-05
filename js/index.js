@@ -44,12 +44,12 @@ welcome.addEventListener('click', function (event){
 homeImg.addEventListener('dblclick', function(event){
     homeImg.style.borderRdius = '200px';
 })
-titleFirst.addEventListener("mouseenter", function( event ) {
+firstTitle.addEventListener("mouseenter", function( event ) {
     // highlight the mouseenter target
     event.target.style.color = "red";
     // reset the color after a short delay
     setTimeout(function() {
-      event.target.style.color = "purple";
+      event.target.style.color = "green";
     }, 500);
   }, false);
   //dbclick
